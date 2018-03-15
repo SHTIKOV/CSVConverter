@@ -1,10 +1,10 @@
 # CSVConverter
-This class created for convert array data to CSV file
+Функционал для **Symfony 3.x**, реализован для преобразования данных из массива в готовый файл CSV.
 
 
 ```php
     /* Объявление класса */
-    $ConvertCSVObj = new CommonClasses\ConvertCSV (';');
+    $ConvertCSVObj = new ConvertCSV (';');
     /* Установка заголовка содержимого */
     $ConvertCSVObj->setTitle ("Информация о игроках");
     /* Установка контента */
